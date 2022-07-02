@@ -11,6 +11,7 @@ public class desafio2{
         teste(TiposFormatacao.CAMEL_CASE);
         teste(TiposFormatacao.SEM_ACENTUACAO);
         teste(TiposFormatacao.MAIUSCULA);
+        teste(TiposFormatacao.MINUSCULA);
         teste(TiposFormatacao.SEM_FORMATACAO);
 
     } 

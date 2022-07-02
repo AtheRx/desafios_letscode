@@ -4,7 +4,8 @@ public enum TiposFormatacao {
     SEM_FORMATACAO("sem formatação"),
     SEM_ACENTUACAO("Sem acentuação"),
     CAMEL_CASE("Camel Case"),
-    MAIUSCULA("Maiúscula");
+    MAIUSCULA("Maiúscula"),
+    MINUSCULA("Minúscula");
 
     private String tipoFormatacao;
 

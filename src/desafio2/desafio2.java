@@ -31,6 +31,6 @@ public class desafio2{
             .msg(mensagem)
             .build();
 
-    email.enviar();
+        email.enviar();
     }
 }

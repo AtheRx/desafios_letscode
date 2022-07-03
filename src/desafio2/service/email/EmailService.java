@@ -18,37 +18,38 @@ public class EmailService {
         this.remetente = remetente;
         this.destinatario = destinatario;
         this.cc = cc;
+        this.assunto = assunto;
         this.msg = msg;
     }
     
     
 
     public String getRemetente() {
-        return remetente;
+        return this.remetente;
     }
 
 
 
     public String getDestinatario() {
-        return destinatario;
+        return this.destinatario;
     }
 
 
 
     public List<String> getCc() {
-        return cc;
+        return this.cc;
     }
 
 
 
     public String getAssunto() {
-        return assunto;
+        return this.assunto;
     }
 
 
 
     public Mensagem getMsg() {
-        return msg;
+        return this.msg;
     }
 
 
@@ -59,6 +60,7 @@ public class EmailService {
             "EMAIL ENVIADO COM SUCESSO \n"+
             "DE: " +  getRemetente() + "\n"+
             "PARA: "+ getDestinatario() + "\n" +
+            "Assunto: "+ getAssunto() + "\n" +
             "MENSAGEM: " + getMsg().toString() + "\n" +
             LocalDateTime.now() + "\n"
         );

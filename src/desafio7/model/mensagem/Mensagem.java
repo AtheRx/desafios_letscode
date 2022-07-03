@@ -1,9 +1,9 @@
-package desafio2.model.mensagem;
+package desafio7.model.mensagem;
 
-import desafio2.model.formatacao.TiposFormatacao;
-import desafio2.model.formatacao.factory.FormatacaoStrategyFactory;
-import desafio2.service.formatacao.FormatacaoService;
-import desafio2.service.formatacao.FormatacaoServiceBuilder;
+import desafio7.model.formatacao.TiposFormatacao;
+import desafio7.model.formatacao.factory.FormatacaoStrategyFactory;
+import desafio7.service.formatacao.FormatacaoService;
+import desafio7.service.formatacao.FormatacaoServiceBuilder;
 
 public class Mensagem {
     private String texto;

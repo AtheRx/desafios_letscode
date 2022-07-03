@@ -1,4 +1,4 @@
-package desafio2.model.formatacao;
+package desafio7.model.formatacao;
 
 public enum TiposFormatacao {
     SEM_FORMATACAO("sem formatação"),

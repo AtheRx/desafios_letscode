@@ -1,10 +1,10 @@
-package desafio2.service.email;
+package desafio7.service.email;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import desafio2.model.mensagem.Mensagem;
+import desafio7.model.mensagem.Mensagem;
 
 public class EmailService {
     private String remetente;

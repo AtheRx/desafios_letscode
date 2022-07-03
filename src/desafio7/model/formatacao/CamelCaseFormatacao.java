@@ -1,4 +1,4 @@
-package desafio2.model.formatacao;
+package desafio7.model.formatacao;
 
 import java.util.StringTokenizer;
 

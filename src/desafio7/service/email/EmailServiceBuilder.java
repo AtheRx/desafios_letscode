@@ -1,9 +1,9 @@
-package desafio2.service.email;
+package desafio7.service.email;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import desafio2.model.mensagem.Mensagem;
+import desafio7.model.mensagem.Mensagem;
 
 public class EmailServiceBuilder {
     private String remetente;

@@ -1,6 +1,6 @@
-package desafio2.service.formatacao;
+package desafio7.service.formatacao;
 
-import desafio2.model.formatacao.FormatacaoStrategy;
+import desafio7.model.formatacao.FormatacaoStrategy;
 
 
 public class FormatacaoServiceBuilder {

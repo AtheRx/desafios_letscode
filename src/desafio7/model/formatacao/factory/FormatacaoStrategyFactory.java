@@ -1,12 +1,12 @@
-package desafio2.model.formatacao.factory;
+package desafio7.model.formatacao.factory;
 
-import desafio2.model.formatacao.CamelCaseFormatacao;
-import desafio2.model.formatacao.FormatacaoStrategy;
-import desafio2.model.formatacao.MaiusculaFormatacao;
-import desafio2.model.formatacao.MinusculaFormatacao;
-import desafio2.model.formatacao.SemAcentuacaoFormatacao;
-import desafio2.model.formatacao.SemFormatacao;
-import desafio2.model.formatacao.TiposFormatacao;
+import desafio7.model.formatacao.CamelCaseFormatacao;
+import desafio7.model.formatacao.FormatacaoStrategy;
+import desafio7.model.formatacao.MaiusculaFormatacao;
+import desafio7.model.formatacao.MinusculaFormatacao;
+import desafio7.model.formatacao.SemAcentuacaoFormatacao;
+import desafio7.model.formatacao.SemFormatacao;
+import desafio7.model.formatacao.TiposFormatacao;
 
 public class FormatacaoStrategyFactory {
     public FormatacaoStrategy criarFormatacao(TiposFormatacao formatacao){

@@ -1,6 +1,6 @@
-package desafio2.model.mensagem;
+package desafio7.model.mensagem;
 
-import desafio2.model.formatacao.TiposFormatacao;
+import desafio7.model.formatacao.TiposFormatacao;
 
 public class MensagemBuilder {
     private String texto;

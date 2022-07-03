@@ -6,7 +6,7 @@ import desafio7.model.mensagem.MensagemBuilder;
 import desafio7.service.email.EmailService;
 import desafio7.service.email.EmailServiceBuilder;
 
-public class desafio7{
+public class Desafio7{
 
     /**
     Crie uma estrutura de classes para simular o envio de uma mensagem por e-mail, mas, antes de enviar a mensagem, 
